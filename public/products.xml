@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Our Products - Simple Shop</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <header>
+            <h1>Our Products</h1>
+            <nav>
+                <link href="/home">Home</link>
+                <link href="/products" class="active">Products</link>
+                <link href="/cart">Cart</link>
+                <link href="/">Log Out</link>
+            </nav>
+        </header>
+        <main>
+            <section class="product-list">
+                <h2>Explore Our Collection</h2>
+                <p>Browse through our top-rated products and add them to your cart.</p>
+                <div class="product-grid">
+                    <product data-price="10">
+                        <img src="/img/flashdrive.jpg" alt="USB Flash Drive"/>
+                        <h3>U Disk USB Flash Drive</h3>
+                        <p>Compact and stylish JetFlash 300. Gloss-black finish with a sleek design.</p>
+                        <price>$50</price>
+                        <button onclick="addToCart('USB Flash Drive', 10, '/img/flashdrive.jpg')">Add to Cart</button>
+                    </product>
+                    <product data-price="15">
+                        <img src="/img/head.jpg" alt="B39 LED Wireless Bluetooth Headphone"/>
+                        <h3>B39 LED Wireless Bluetooth Headphone</h3>
+                        <p>Wireless Bluetooth 5.0 headset with mic, noise cancellation, and a foldable design.</p>
+                        <price>$15</price>
+                        <button onclick="addToCart('Bluetooth Headphone', 15, '/img/head.jpg')">Add to Cart</button>
+                    </product>
+                    <product data-price="20">
+                        <img src="/img/mouse.jpg" alt="Wireless Optical Gaming Mouse"/>
+                        <h3>Wireless Optical Gaming Mouse</h3>
+                        <p>Ergonomic design with adjustable DPI, wireless connectivity, and optical precision.</p>
+                        <price>$20</price>
+                        <button onclick="addToCart('Wireless Optical Gaming Mouse', 20, '/img/mouse.jpg')">Add to Cart</button>
+                    </product>
+                </div>
+            </section>
+        </main>
+        <script src="script.js"/>
+    </body>
+</document>

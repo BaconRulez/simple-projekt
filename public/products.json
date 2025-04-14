@@ -1,0 +1,22 @@
+{
+    "products": [
+        {
+            "name": "U Disk USB Flash Drive",
+            "price": 10,
+            "image": "/img/flashdrive.jpg",
+            "description": "Compact and stylish JetFlash 300. Gloss-black finish with a sleek design."
+        },
+        {
+            "name": "B39 LED Wireless Bluetooth Headphone",
+            "price": 15,
+            "image": "/img/head.jpg",
+            "description": "Wireless Bluetooth 5.0 headset with mic, noise cancellation, and a foldable design."
+        },
+        {
+            "name": "Wireless Optical Gaming Mouse",
+            "price": 20,
+            "image": "/img/mouse.jpg",
+            "description": "Ergonomic design with adjustable DPI, wireless connectivity, and optical precision."
+        }
+    ]
+}
